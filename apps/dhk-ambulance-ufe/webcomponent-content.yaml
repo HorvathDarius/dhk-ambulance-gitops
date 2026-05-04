@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: dhk-ambulance-ufe-content
+spec:
+  microFrontend: dhk-ambulance-ufe
+  element: dhk-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?dhk-ambulance-wl(/.*)?$"
