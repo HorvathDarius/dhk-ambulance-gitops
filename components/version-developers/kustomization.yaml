@@ -3,5 +3,5 @@ kind: Component
 
 images:
 - name: dariushorvath/dhk-ambulance-ufe
-  newName: dariushorvath/dhk-ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  newName: dariushorvath/dhk-ambulance-ufe # {"$imagepolicy": "dhk-hospital:dhk-ambulance-ufe:name"}
+  newTag: main # {"$imagepolicy": "dhk-hospital:dhk-ambulance-ufe:tag"}
