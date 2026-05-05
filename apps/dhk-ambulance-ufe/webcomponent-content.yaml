@@ -4,7 +4,7 @@ metadata:
   name: dhk-ambulance-ufe-content
 spec:
   microFrontend: dhk-ambulance-ufe
-  element: dhk-ambulance-wl-list
+  element: main-component
   displayRules:
     - allOf:
       - context-name: main-content
