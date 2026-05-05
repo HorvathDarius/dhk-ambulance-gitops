@@ -5,7 +5,7 @@ namespace: dhk-hospital # chceme tieto objekty umiestniť do `wac-hospital` name
                          # tento zapis preťaží hodnoty "namespace" vo všetkých objektoch
 labels:
 - pairs:
-    app.kubernetes.io/part-of: wac-hospital
+    app.kubernetes.io/part-of: dhk-hospital
 
 resources:
 - ../../../apps/dhk-ambulance-ufe
