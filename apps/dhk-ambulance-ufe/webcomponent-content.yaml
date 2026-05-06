@@ -4,7 +4,10 @@ metadata:
   name: dhk-ambulance-ufe-content
 spec:
   microFrontend: dhk-ambulance-ufe
-  element: main-component
+  element: vykon-app
+  attributes:
+    - name: base-path
+      value: /dhk-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
