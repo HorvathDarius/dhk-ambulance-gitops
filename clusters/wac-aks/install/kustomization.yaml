@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/dhk-ambulance-ufe
+- ../../../apps/dhk-ambulance-webapi
 
 
 components:

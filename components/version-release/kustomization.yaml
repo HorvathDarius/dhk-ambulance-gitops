@@ -3,4 +3,7 @@ kind: Component
 images:
 - name: dariushorvath/dhk-ambulance-ufe
   newName: dariushorvath/dhk-ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: dariushorvath/dhk-ambulance-webapi
+  newName: dariushorvath/dhk-ambulance-webapi
+  newTag: 1.1.0
