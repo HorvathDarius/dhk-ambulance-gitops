@@ -1,0 +1,16 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: dhk-ambulance-ufe-assignment-content
+spec:
+  microFrontend: dhk-ambulance-ufe
+  element: assignment-app
+  attributes:
+    - name: base-path
+      value: /dhk-ambulance-assignments/
+    - name: api-base
+      value: http://localhost:30081/api
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?dhk-ambulance-assignments(/.*)?$"

@@ -6,6 +6,8 @@ resources:
 - service.yaml
 - webcomponent-link.yaml
 - webcomponent-content.yaml
+- webcomponent-assignment-link.yaml
+- webcomponent-assignment-content.yaml
 - microfrontend.yaml
 
 labels:
