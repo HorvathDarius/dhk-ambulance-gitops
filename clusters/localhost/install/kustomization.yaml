@@ -14,6 +14,7 @@ components:
 resources:
 - ../../../apps/dhk-ambulance-ufe
 - ../../../apps/dhk-ambulance-webapi
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
