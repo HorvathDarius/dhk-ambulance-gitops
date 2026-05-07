@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: dhk-ambulance # napr. <pfx>-ambulance-wl
+spec:
+  title: Personálna správa # napr. "Zoznam čakajúcich <pfx>"
+  description: Personálna správa, prehľad o zamestnancoch nemocnice, ich priradenie k ambulanciám a nemocničným oddeleniam, prehľad o výkonoch a správa osobnej dokumentácie # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Frederik Duvač, Darius-Dušan Horvath, Adrián Komanek" # Zadajte mená autorov
+  azureLink: "https://<sub-domain>.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/HorvathDarius/dhk-ambulance-ufe"
+  backendRepoUrl: "https://github.com/HorvathDarius/dhk-ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/HorvathDarius/dhk-ambulance-gitops"
