@@ -4,3 +4,6 @@ images:
 - name: dariushorvath/dhk-ambulance-ufe
   newName: dariushorvath/dhk-ambulance-ufe # {"$imagepolicy": "dhk-hospital:dhk-ambulance-ufe:name"}
   newTag: main.20260506.1300 # {"$imagepolicy": "dhk-hospital:dhk-ambulance-ufe:tag"}
+- name: dariushorvath/dhk-ambulance-webapi
+  newName: dariushorvath/dhk-ambulance-webapi # {"$imagepolicy":  "dhk-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "dhk-hospital:ambulance-webapi:tag"}

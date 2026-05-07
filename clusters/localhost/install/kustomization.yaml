@@ -9,6 +9,11 @@ labels:
 
 components:
 - ../../../components/version-developers
+- https://github.com/HorvathDarius/dhk-ambulance-webapi//deployments/kustomize/components/mongodb
 
 resources:
 - ../../../apps/dhk-ambulance-ufe
+- ../../../apps/dhk-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
