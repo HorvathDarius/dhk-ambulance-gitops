@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /dhk-ambulance-assignments/
     - name: api-base
-      value: http://localhost:30081/api
+      value: /dhk-api
   displayRules:
     - allOf:
       - context-name: main-content
