@@ -7,6 +7,7 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: dhk-ambulance
+    wac-fiit.github.io/project: dhk-ambulance
   includeSelectors: true
   includeTemplates: true
 

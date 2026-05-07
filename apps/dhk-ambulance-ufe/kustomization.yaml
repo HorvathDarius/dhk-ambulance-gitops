@@ -11,3 +11,4 @@ resources:
 labels:
 - pairs:
     app.kubernetes.io/component: dhk-ambulance-ufe
+    wac-fiit.github.io/component: frontend
