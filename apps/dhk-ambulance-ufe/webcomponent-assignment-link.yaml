@@ -1,0 +1,25 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: dhk-ambulance-ufe-assignment-link
+spec:
+  microFrontend: polyfea-md-shell # referencia na microfrontend, z ktorého sa načíta element
+  element: polyfea-md-app # element, ktorý bude vložený na stránku
+  attributes:
+    - name: headline
+      value: Priradenie k oddeleniam dhk
+    - name: short-headline
+      value: Priradenie dhk
+    - name: supporting-text
+      value: |
+        Spravuje priradenie zamestnancov k ambulanciám a nemocničným oddeleniam
+    - name: material-icon
+      value: assignment_ind
+    - name: href
+      value: ./dhk-ambulance-assignments
+  priority: 9
+  displayRules:
+    - anyOf:
+      - context-name: applications
+      - context-name: rail-content
+      - context-name: drawer-content
