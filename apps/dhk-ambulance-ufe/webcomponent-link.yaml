@@ -7,14 +7,14 @@ spec:
   element: polyfea-md-app # element, ktorý bude vložený na stránku
   attributes: # atribúty elementu polyfea-md-app
     - name: headline
-      value: Zoznam čakajúcich dhk
+      value: Personálna správa
     - name: short-headline
-      value: Zoznam čakajúcich dhk
+      value: Personálna správa
     - name: supporting-text
       value: |
-        Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+        Personálna správa, prehľad o zamestnancoch nemocnice, ich priradenie k ambulanciám a nemocničným oddeleniam, prehľad o výkonoch a správa osobnej dokumentácie
     - name: material-icon
-      value: home_health
+      value: people
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
       value: ./dhk-ambulance-wl
   priority: 10
